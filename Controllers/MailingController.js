@@ -20,7 +20,7 @@ exports.sendEmail = async (req, res) => {
 
         // Message personnalisé avec HTML
         const customHtml = `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #1E2022;">
+        <div style="font-family: Arial, sans-serif;margin: 0 auto; padding: 20px; background-color: #1E2022;">
             <h2 style="color: #C9D6DF; text-align: center;">Bonjour,</h2>
             <p style="color: #C9D6DF;">Nous avons bien reçu votre message :</p>
             <p style="color: #C9D6DF; margin-bottom: 20px;"><strong>${html}</strong></p>
