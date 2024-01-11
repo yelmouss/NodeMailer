@@ -23,10 +23,10 @@ exports.sendEmail = async (req, res) => {
         <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #F0F5F9;">
 
         <div style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #1E2022; color: #C9D6DF; text-align: center;">
-            <h2>Bonjour,</h2>
-            <p>Nous avons bien reçu votre message :</p>
-            <p style="margin-bottom: 20px;"><strong>${html}</strong></p>
-            <p>Merci de nous avoir contactés!</p>
+            <h2 style="color: #C9D6DF;">Bonjour,</h2>
+            <p style="color: #C9D6DF;">Nous avons bien reçu votre message :</p>
+            <p style="margin-bottom: 20px;color: #C9D6DF"><strong>${html}</strong></p>
+            <p style="color: #C9D6DF;">Merci de nous avoir contactés!</p>
             <a href="https://yelmouss.vercel.app" style="text-decoration: none; color: #C9D6DF;">
                 <img src="https://yelmouss.vercel.app/static/media/Geek.f6f97d62b3ed6895e2b9.png" alt="Logo" style="display: block; margin: 0 auto; max-width: 80px; height: auto; margin-top: 20px;">
                 <p>Visit Portfolio</p>
